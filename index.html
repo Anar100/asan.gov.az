@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASAN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://asan.gov.az/favicon.ico">
+</head>
+
+<body>
+    <!-- Header Started -->
+    <header id="header" class="headroom headroom--not-bottom headeroom--pinned headeroom--top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="https://asan.gov.az/az" class="logo">
+                        <img src="https://asan.gov.az/img/logo.svg" alt="asan xidmet">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="#" class="menu_toggle fr">
+                        Menyu
+                        <!-- <i class="icon-menu"></i> -->
+                        <button class="fas fa-bars new-menu-icon button"></button>
+                    </a>
+
+                    <div class="call_center visible-md visible-lg fr">
+                        <i class="icon-call-center">
+                            <img src="https://asan.gov.az/img/108.png" alt="">
+                        </i>
+                    </div>
+                </div>
+                <div class="clr"></div>
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="search_box">
+                        <form id="search" action="https://asan.gov.az/az/search" method="get">
+                            <input type="text" name="query" class="search_autocomplete"
+                                placeholder="Xidmətlər üzrə axtarış üçün yazın"
+                                data-placeholder-web="Sayt üzrə axtarış üçün yazın"
+                                data-placeholder-default="Xidmətlər üzrə axtarış üçün yazın" autocomplete="off">
+                            <div class="search_cat">
+                                <span class="search_checkbox">
+                                    Sayt üzrə
+                                </span>
+                            </div>
+                            <button type="submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header THE END -->
+
+    <!-- Content Section Started -->
+    <section class="content_wrapper clearfix">
+        <section class="home__services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 hidden-xs hidden-sm">
+                        <a href="https://bit.ly/2Y7STLW" target="_blank">
+                            <img width="100%" style="margin-bottom: 20px;" src="https://asan.gov.az/desktop_banner.gif"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                        <a target="_blank" href="http://bit.ly/2Y7STLW">
+                            <img width="100%" style="margin-bottom: 20px;" src="https://asan.gov.az/mobile_banner.gif"
+                                alt=""></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>ASAN xidmətlər</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    “ASAN xidmət” mərkəzləri vasitəsi ilə göstərilən xidmətlər barədə məlumat əldə edə
+                                    bilərsiniz
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>ASAN Kommunal</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    “ASAN Kommunal” mərkəzləri vasitəsi ilə göstərilən xidmətlər barədə məlumat əldə edə
+                                    bilərsiniz
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>ASAN ödəniş</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Ödəniş etməyin ən asan yolu
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Onlayn növbə</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Xidmət mərkəzinə gəlmədən növbə tutmaq mümkündür
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Səyyar ASAN xidmət</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Səyyar ASAN xidmət avtobusları və ASAN qatar tərəfindən göstərilən xidmətlər barədə
+                                    məlumat əldə edə bilərsiniz
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Statistika</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    “ASAN xidmət”in fəaliyyətini əks etdirən statistik məlumatlar </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Çağrı Mərkəzi</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Çağrı Mərkəzi vasitəsi ilə xidmət mərkəzinə gəlmədən xidmətlərlə bağlı sual, təklif
+                                    və şikayətinizi bildirə bilərsiniz </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>ASAN könüllülük məktəbi</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Könüllü olmaq istəyən gənclərin təcrübə, bacarıq və bilik məktəbi </p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Xidməti sifariş et</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Xidmətlərin vətəndaşın yaşayış, iş yerində, habelə olduğu yerdə göstərilməsi üçün
+                                    onlayn sifariş </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>ABAD</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Ailə Biznesinə Asan Dəstək layihəsi haqqında məlumat əldə edə bilərsiniz </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Növbəlik üzrə statistika</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Mərkəzlər üzrə xidmət göstərilən və növbədə gözləyən şəxslərin sayı, həmçinin orta
+                                    gözləmə vaxtı əks olunur. </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="htpps://asan.gov.az/az/category/asan-xidmetler">
+                                <span>Mətbuat</span>
+                                <img src="https://asan.gov.az/storage/service_category/1497567118.svg" alt="">
+                                <p>
+                                    Press-relizlər, Xəbərlər, Elanlar və Qalereya </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <section class="home__popular_services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Ən çox müraciət olunan xidmətlər</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="#">
+                                <span>Ümumvətəndaş pasportlarının ve...
+                                    <i></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="#">
+                                <span>Sürücülük vəsiqələrinin dəyişd...
+                                    <i></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="#">
+                                <span>Nikahın qeydə alınması
+                                    <i></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="#">
+                                <span>Şəxsiyyət vəsiqələrinin verilm...
+                                    <i></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+    <!-- Section The End -->
+    <!-- Footer Started -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-8 col-xs-12">
+                    <div class="arpvxsida" style="cursor: pointer;"
+                        onclick="window.open('http://vxsida.gov.az','new_window');">Azərbaycan Respublikasının
+                        Prezidenti yanında Vətəndaşlara Xidmət<br> və Sosial İnnovasiyalar üzrə Dövlət Agentliyi</div>
+                </div>
+                <div class="col-md-6 col-sm-4 col-xs-12">
+                    <div class="lang">
+                        <a class="az" href="javascript:;">AZ</a>
+                    </div>
+                </div>
+                <div class="clr"></div>
+                <div class="col-sm-10">
+                    <ul class="f_menu">
+                        <li><a href="https://asan.gov.az/az/category/asan-xidmetler">ASAN xidmətlər</a></li>
+                        <li><a href="https://asan.gov.az/az/category/asan-kommunal">ASAN Kommunal</a></li>
+                        <li><a target="_blank" href="https://www.asanpay.az/" rel="external">ASAN ödəniş</a></li>
+                        <li><a href="https://asan.gov.az/az/online-queue">Onlayn növbə</a></li>
+
+                        <li><a href="https://asan.gov.az/az/mobile-service">Səyyar ASAN xidmət</a></li>
+                        <li><a target="_blank" href="http://www.asanschool.az/" rel="external">ASAN könüllülük
+                                məktəbi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <p class="copyrights">© 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end :) -->
+    <!-- Started Mobile Menu -->
+    <aside class="mobile_menu opened" >
+        <div class="inner_scrollable jp-container">
+            <a href="#" class="mobile_close button ">
+                Bağla
+            </a>
+            <div class="clr"></div>
+            <div class="sidebar_menu">
+                <h3>XİDMƏTLƏR</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            ASAN xidmətlər
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ASAN Kommunal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Özünəxidmət
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Növbəlik üzrə statistika
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ASAN ödəniş
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Onlayn növbə
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Səyyar ASAN xidmət
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ASAN könüllülük məktəbi
+                        </a>
+                    </li>
+                </ul>
+                <h3>Haqqımızda</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Ümumi məlumat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            "ASAN xidmət" mərkəzləri
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            "ASAN Kommunal" mərkəzləri
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Rəy sorğusu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Mətbuat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Statistika
+                        </a>
+                    </li>
+                </ul>
+                <h3>Digər</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Çağrı Mərkəzi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Ən çox verilən suallar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Müraciət göndər
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Faydalı məlumatlar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Dövlət Xidmətləri Portalı
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            İdeya bankı
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            ASAN radio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>Erməni təcavüzü</strong>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="sidebar_socials">
+                <ul>
+                    <li>
+                        <a href="#" class="fb">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="tw">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="instagram">instagram</a>
+                    </li>
+                    <li>
+                        <a href="#" class="yt">Youtube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <!-- Aside Menu THE END -->
+    <script>
+       document.getElementsByClassName("button")[0].addEventListener("click", function(){
+            document.getElementsByClassName("opened")[0].style.right = "0%";  
+            document.getElementsByClassName("opened")[0].style.transition = ".3s ease";  
+        });
+
+        document.getElementsByClassName("button")[1].addEventListener("click", function(){
+            document.getElementsByClassName("opened")[0].style.right = "-100%";   
+            document.getElementsByClassName("opened")[0].style.transition = "1s ease";  
+
+         });
+    </script>
+</body>
+
+</html>

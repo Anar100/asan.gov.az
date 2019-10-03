@@ -1,0 +1,725 @@
+body {
+    background: #F6F6F6;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing:border-box;
+}
+a,a:hover , a:active, a:focus {
+    text-decoration: none !important;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row [class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+a {
+    text-decoration: none !important;
+}
+a {
+    color: #337ab7;
+}
+
+a {
+    background-color: transparent;
+}
+
+
+#header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 180px;
+    background: url(https://asan.gov.az/img/header_bg.jpg) no-repeat center top #2678D8;
+    transition: top 0.3s ease-in-out;
+}
+
+.logo {
+    display: block;
+    margin-top: 14px;
+}
+
+a.menu_toggle {
+    font: 500 14px/1.5 'Fira Sans';
+    color: #fff;
+    height: 19px;
+    margin-left: 30px;
+    margin-top: 27px;
+}
+
+.fr {
+    float: right;
+}
+
+.new-menu-icon {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.icon-menu {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 15px;
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat 0 0;
+}
+
+.call_center {
+    cursor: pointer;
+    font: 500 14px/1.5 'Fira Sans';
+    color: #fff;
+    height: 19px;
+    margin-top: 27px;
+}
+
+.icon-call-center {
+    display: inline-block;
+    vertical-align: top;
+    width: 49px;
+    height: 19px;
+}
+
+.icon-call-center img {
+    height: auto;
+    margin-top: 1px;
+    vertical-align: top;
+    width: 49px;
+}
+
+.clr {
+    clear: both;
+}
+
+.search_box {
+    display: block;
+}
+
+.search_box {
+    position: relative;
+    margin-top: 28px;
+}
+
+.search_box:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 19px;
+    border: none;
+    top: 19px;
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -69px 0;
+}
+
+.search_box input {
+    font: 14px/1.5 'Fira Sans';
+    color: #031529;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 15px 48px 15px 45px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px 0 #0666D6;
+    border-radius: 3px;
+}
+
+.search_cat {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    border-radius: 0 3px 3px 0;
+    line-height: 53px;
+    white-space: nowrap;
+    width: auto; 
+}
+
+.search_checkbox {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 10px;
+    font: 14px/14px 'Fira Sans';
+    color: #5B7390;
+    z-index: 100;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search_checkbox:before {
+    content: '';
+    margin-right: 3px;
+    display: inline-block;
+    margin-top: 2px;
+    vertical-align: top;
+    width: 12px;
+    height: 11px;
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat 0 -276px;
+}
+
+.search_box button {
+    display: none;
+}
+
+/* Header THE END */
+
+/* Started Section */
+
+.clearfix {
+    zoom: 1;
+}
+
+.content_wrapper {
+    position: relative;
+    margin-top: 180px;
+    padding-bottom: 100px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+
+.home__services {
+    margin-top: 30px;
+}
+
+.home__services .box {
+    position: relative;
+    height: 195px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08); 
+}
+
+.home__services .box a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: url(https://asan.gov.az/img/h_s_bg.jpg) no-repeat 10px 20px #fff;
+}
+
+.home__services .box a span {
+    position: relative;
+    float: left;
+    z-index: 2;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    font: 18px/1.5 'Fira Sans', sans-serif;
+    color: #2678D8;
+}
+
+.home__services .box a img {
+    position: relative;
+    z-index: 2;
+    margin: 13px 0 20px 0;
+}
+
+.home__services .box a img {
+   display: none !important;
+}
+
+.home__services .box a p {
+    /* position: absolute; */
+    right: 10px;
+    left: 10px;
+    top: 120px;
+    z-index: 2;
+    font: 300 13px/1.5 'Fira Sans',sans-serif;
+    font-family: 'Fira Sans', sans-serif !important;
+    color: #2678D8;
+    margin: 0;
+}
+
+.home__services .box a:hover p {
+    /* color: #fff; */
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+.home__popular_services .box a:hover span i {
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -22px -19px;
+}
+
+.home__popular_services .box a:hover span {
+    background: #1A355F;
+    color: #fff !important;
+}
+
+.home__popular_services .box a:hover p {
+    display: none;
+    background-color: white;
+}
+.home__services .box a:hover {
+   background: url(https://asan.gov.az/img/h_s_bg_hover.jpg) no-repeat 10px 20px #fff;
+   
+}
+
+.home__services .box a p:hover {
+    display: none !important;
+
+}
+
+.home__services .box a:after {
+    transition: all 0.3s ease-in-out;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 20px;
+    z-index: 1;
+    background: url(https://asan.gov.az/img/h_s_bg_hover.jpg) no-repeat 10px 20px #fff;
+}
+
+.home__popular_services h3 {
+    display: block;
+    text-align: center;
+    font: 14px/1.5 'Fira Sans';
+    margin: 15px 0 15px;
+    color: #1A355F;
+}
+
+.home__popular_services .box {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08);
+}
+
+.home__popular_services .box a {
+    display: table;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.home__popular_services .box a span {
+    position: relative;
+    padding: 0 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font: 12px/1.5 'Fira Sans',sans-serif;
+    color: #00193E;
+    transition: all 0.3s ease-in-out;
+}
+
+.home__popular_services .box a span i {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    margin-top: -4px;
+    width: 22px;
+    height: 7px;
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -22px -28px;
+}
+
+.home__popular_services .box a span:hover {
+    background-color: #00193E;
+    color: white;
+}
+
+/* THE END SECTION */
+
+/* Footer Started */
+
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.arpvxsida {
+    opacity: 0.85;
+    transition: all 0.3s;
+}
+.arpvxsida {
+    position: relative;
+    margin-top: 20px;
+    font: 12px/1.5 'Fira Sans', sans-serif;
+    color: #2678D8;
+    min-height: 30px;
+    padding-left: 32px;
+}
+
+.arpvxsida:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 25px;
+    background: url(https://asan.gov.az/img/gerb.png) no-repeat 0 0;
+}
+
+.lang a.az {
+    background: url(https://asan.gov.az/img/az.png) no-repeat center right;
+}
+
+.lang a {
+    margin-top: 20px;
+    font: 12px/1.5 'Fira Sans',sans-serif;
+    color: #2678D8;
+    display: block;
+    float: right;
+    padding-right: 20px;
+}
+
+.f_menu {
+    margin: 17px 0 0 0 ;
+    padding: 0;
+}
+
+.f_menu li {
+    display: inline-block;
+    font: 12px/1.5 'Fira Sans',sans-serif;
+    color: #748292;
+    margin-right: 30px;
+}
+
+.f_menu li a {
+    font: 12px/1.5 'Fira Sans',sans-serif;
+    color: #748292;
+    transition: all 0.3s ease-in-out;
+}
+
+.copyrights {
+    font: 12px/1.5 'Fira Sans',sans-serif;
+    color: #748292;
+    float: right;
+    margin: 15px 0 0;
+}
+
+/* Footer THE END */
+
+
+/* Started Mobile Menu */
+
+.mobile_menu.opened {
+    
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.50);
+    right: 0;
+}
+.mobile_menu {
+    position: fixed;
+    width: 300px;
+    z-index: 3000;
+    top: 0;
+    right: -300px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: #2678D8;
+    color: #fff;
+    transition: all 0.3 linear;
+}
+
+.inner_scrollable {
+    position: relative;
+    padding: 27px 40px 60px 40px;
+    min-height: 100%;
+}
+
+a.mobile_close {
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: 50px;
+    font: 14px/1.5 'Fira Sans',sans-serif;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.mobile_close:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -82px 0;
+}
+
+.sidebar_menu h3 {
+    margin: 0 0 10px;
+    display: block;
+    font: bold 14px/1.5 'Fira Sans',sans-serif;
+    color: #fff;
+}
+
+.sidebar_menu ul {
+    padding: 0;
+    margin: 0 0 50px;
+}
+
+.sidebar_menu ul li {
+    list-style: none;
+    font: 14px/1.5 'Fira Sans',sans-serif;
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+.sidebar_menu ul li a {
+    position: relative;
+    font: 14px/1.5 'Fira Sans',sans-serif;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar_menu ul li a:after {
+    content: '';
+    position: relative;
+    left: 10px;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.sidebar_socials {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar_menu ul li a:hover {
+    padding-left: 17px;
+}
+
+.sidebar_menu ul li a:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    opacity: 1;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.sidebar_socials ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar_socials ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.mobile_menu.opened {
+    right: -50%;
+}
+
+.sidebar_socials ul li a.fb {
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -97px 0;
+    width: 8px;
+    height: 15px;
+}
+
+.sidebar_menu ul li:first-child a {
+    margin-left: 0;
+}
+
+.sidebar_socials ul li:nth-child(1) a {
+    bottom: 30px;
+    left: 25px;
+}
+
+.sidebar_socials ul li a {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.sidebar_socials li a {
+    position: relative;
+}
+
+.sidebar_socials ul li a.tw {
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -105px 0;
+    width: 18px;
+    height: 15px;
+}
+
+.sidebar_socials li:nth-child(2) a {
+    right: 35px;
+}
+
+.sidebar_socials ul li a.instagram {
+    background: url(https://asan.gov.az/img/svg/instagram.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+}
+
+.sidebar_socials li:nth-child(3) a {
+    bottom: 30px;
+    right: 30px;
+}
+
+.sidebar_socials ul li a.yt {
+    background: url(https://asan.gov.az/img/sprite.svg) no-repeat -123px 0;
+    width: 20px;
+    height: 14px;
+}
+
+.sidebar_socials ul li:last-child a{
+    margin-right: 0;
+}
+
+.sidebar_socials li:nth-child(4) a {
+    right: 100px;
+}
+
+/* .mobile_menu {
+    position: absolute;
+     right: -50% !important; 
+} */
+
+
+
+/* The ENd Mobile Menu */
+/* Started Responsive */
+
+@media (min-width: 576px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+    .col-sm-10 {
+        width: 83.333333%;
+    }
+    .col-sm-offset-2 {
+        margin-left: 16.666666667%;
+    }
+   
+    .col-md-3 {
+        width: 50%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .home__services .box {
+        height: 135px;
+    }
+    .home__services .box a span {
+        margin-top: 20px; 
+    }
+    .home__services .box a img {
+        display: none;
+    }
+    .home__services .box a p {
+        top: auto;
+        padding: 0 5px;
+    }
+
+    .hidden-sm {
+        display: none;
+    }    
+    /* .call_center.visible-md.visible-lg.fr {
+        display: none;
+    } */
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .hidden-lg {
+        display: none !important;
+    }
+    .call_center.visible-md.visible-lg.fr {
+        display: block; 
+    }
+    .hidden-sm {
+        display: block;
+    }  
+}
+
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none !important;
+    }
+    .container {
+        width: 1170px;
+    }
+    .hidden-sm {
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px)
+ {
+    .col-md-6{
+    width: 50%;
+    }
+}
+
+@media (min-width: 768px)
+ {
+    .col-sm-10
+    {width: 83.33333333%;}
+}
